@@ -14,34 +14,35 @@ body {
 
 .head, .contain-a, .contain-c, .c-p, .c-title, .c-h, .con-b{
 	padding-left: 20px;	
+	padding-right: 20px;
 }
 .head-a{
-	display: ;
+	display: inline;
 }
 .h-title{
-	font-size: 20px;
+	font-size: 18px;
 	font-weight: bold;
 	margin-top: 18px;
 	border-right:1px solid #ddd;
-	width: 230px;
-	float: left;
+	width: 210px;
+	display: inline-block;
 }
 .hh{
 	float: right;
 	padding-right: 10px;
+	display: inline;
 }
 .icon-a, .i-t{
-	margin-top: 15px;
-	margin-left: 10px;
+	margin-top: 18px;
 	color: #1AED73;
-	font-size: 15px;
+	font-size: 13px;
 }
 .icon-a img{
-	width: 40px;
+	width: 38px;
 	height: 35px;
 }
 .h-b-a img, .h-b-c img{
-	width: 15px;
+	width: 16px;
 	height: 20px;
 }
 .i-t{
@@ -54,10 +55,11 @@ body {
 .h-b-a{
 	   float: left;
 	   margin-top: 15px;
-	   width: 220px;
+	   width: 200px;
+	   display: inline-block;
 }
 .h-b-b{
-	margin-top:19px; 
+	margin-top:13px; 
 	float: right;
 }
 .h-b-b, .con-a{
@@ -83,7 +85,6 @@ body {
 .c-title-a{
 	font-size: 20px;
 	margin-top:31px;
-	margin-bottom:31px;
 	border-left:3px solid #18AFFE;
 	float: left;
 	padding-left: 19px;
@@ -98,23 +99,30 @@ body {
 }
 .c-t-a{
 	margin-top: 30px;
-	margin-right: 20px;
 	float: right;
 	color: #18AFFE;
 	font-size: 18px;
-	font-style: bold;
+	font-weight: bold;
 }
 .c-b{
 	clear: both;
 	border-bottom: 1px solid #666;
 	border-color: #ddd;
 }
+.c-b:after{
+	content: "";
+	clear: both;
+	display: block;
+	
+}
 .c-b-a{
 	float: left;
+	width: 180px;
 	color: #18AFFE;
 	font-size: 18px;
 	margin-top: 10px;
 	margin-bottom: 10px;
+	display: inline;
 }
 .c-b-a img{
 	width: 20px;
@@ -125,8 +133,7 @@ body {
 	font-size: 18px;
 	color: #666;
 	margin-top: 20px;
-	margin-right: 10px;
-
+	display: inline;
 }
 .c-h{
 	clear: both;
@@ -134,9 +141,7 @@ body {
 	padding-bottom: 20px;
 
 }
-.c-p{
-	margin-right: 20px;
-}
+
 .con-a{
 	float: right;
 	margin-top: 26px;
@@ -148,7 +153,6 @@ body {
 }
 .text{
 	float: left;
-	width: 200px;
 	margin-left: 10px;
 	list-style-type: none;
 	border-bottom:1px solid #666;
@@ -161,17 +165,19 @@ body {
 }
 .text-title{
 			margin-top: 10px;
+			width: 200px;
+			display: inline;
 }
 .text-a{
 	font-size: 14px;
 	color:#666;
-	padding-top: 10px;
 }
 .text-num{
 	float: left;
 }
 .text-time{
 	float: right;
+	padding-top: 10px;
 }
 .comment{
 		border-bottom:1px solid #666;
@@ -180,25 +186,26 @@ body {
 }
 .comment-a{
 	clear: both;
+	padding-top: 10px;
+	margin-left: 15px;
 }
 .c-name{
 	float: left;
 	margin-right: 20px;
 	color: #18AFFE;
-	padding-top: 10px;
+	display: inline;
 }
 .c-time{
 	font-size: 14px;
 	color:#666;	
 	width: 200px;
-	text-align: center;
-	padding-top: 10px;
+	display: inline;
 }
 .c-pic{
 	   float: right;
 	   color: #18AFFE;
-	   margin-right: 15px;
 	   height: 30px;
+	   display: inline;
 }
 .c-pic img{
 	width: 18px;
@@ -208,11 +215,12 @@ body {
 	clear: both;
 	padding-bottom: 10px;
 	padding-right:20px;
-
+	margin-left: 20px;
 }
 .c-text-a{
 	margin-left: 10px;
 	margin-bottom: 10px;
+	margin-left: 25px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right:20px;
