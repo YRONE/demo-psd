@@ -107,6 +107,7 @@ body {
 .c-b{
 	clear: both;
 	border-bottom: 1px solid #666;
+	border-color: #ddd;
 }
 .c-b-a{
 	float: left;
@@ -150,6 +151,10 @@ body {
 	width: 200px;
 	margin-left: 10px;
 	list-style-type: none;
+	border-bottom:1px solid #666;
+	border-color: #ddd;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
 }
 .con-b, .contain-c{
 	  clear: both;
@@ -170,6 +175,7 @@ body {
 }
 .comment{
 		border-bottom:1px solid #666;
+		border-color: #ddd;
 		list-style-type: none;
 }
 .comment-a{
@@ -206,6 +212,7 @@ body {
 }
 .c-text-a{
 	margin-left: 10px;
+	margin-bottom: 10px;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	padding-right:20px;
