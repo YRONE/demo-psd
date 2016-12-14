@@ -12,7 +12,7 @@ body {
 	padding: 0;
 }
 
-.head, .contain-a, .contain-c, .c-title, .c-p, .c-title, .c-h{
+.head, .contain-a, .contain-c, .c-p, .c-title, .c-h, .con-b{
 	padding-left: 20px;	
 }
 .head-a{
@@ -48,7 +48,7 @@ body {
 	margin-top: 5px;
 }
 .head-b{
-	font-size: 16px;
+	font-size: 14px;
 	color: #666;
 }
 .h-b-a{
@@ -77,9 +77,16 @@ body {
 	width: 20px;
 	height: 16px;
 }
-
-.contain-b{
+.c-a-title{
 	clear: both;
+}
+.c-title-a{
+	font-size: 20px;
+	margin-top:31px;
+	margin-bottom:31px;
+	border-left:3px solid #18AFFE;
+	float: left;
+	padding-left: 19px;
 }
 .c-title{
 	font-size: 20px;
@@ -87,22 +94,38 @@ body {
 	margin-bottom:31px;
 	border-left:3px solid #18AFFE;
 	float: left;
+	margin-left: 20px;
 }
 .c-t-a{
 	margin-top: 30px;
 	margin-right: 20px;
 	float: right;
 	color: #18AFFE;
+	font-size: 18px;
+	font-style: bold;
 }
 .c-b{
 	clear: both;
+	border-bottom: 1px solid #666;
 }
 .c-b-a{
 	float: left;
-	width: 200px;
+	color: #18AFFE;
+	font-size: 18px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.c-b-a img{
+	width: 20px;
+	height: 20px;
 }
 .c-b-b{
 	float: right;
+	font-size: 18px;
+	color: #666;
+	margin-top: 20px;
+	margin-right: 10px;
+
 }
 .c-h{
 	clear: both;
@@ -122,11 +145,71 @@ body {
 	width: 20px;
 	height: 20px;
 }
-.c-li{
-	border-right:1px solid #ddd;
+.text{
+	float: left;
+	width: 200px;
+	margin-left: 10px;
+	list-style-type: none;
 }
-#comment{
+.con-b, .contain-c{
+	  clear: both;
+}
+.text-title{
+			margin-top: 10px;
+}
+.text-a{
+	font-size: 14px;
+	color:#666;
+	padding-top: 10px;
+}
+.text-num{
+	float: left;
+}
+.text-time{
+	float: right;
+}
+.comment{
 		border-bottom:1px solid #666;
+		list-style-type: none;
+}
+.comment-a{
+	clear: both;
+}
+.c-name{
+	float: left;
+	margin-right: 20px;
+	color: #18AFFE;
+	padding-top: 10px;
+}
+.c-time{
+	font-size: 14px;
+	color:#666;	
+	width: 200px;
+	text-align: center;
+	padding-top: 10px;
+}
+.c-pic{
+	   float: right;
+	   color: #18AFFE;
+	   margin-right: 15px;
+	   height: 30px;
+}
+.c-pic img{
+	width: 18px;
+	height: 18px;
+}
+.c-text{
+	clear: both;
+	padding-bottom: 10px;
+	padding-right:20px;
+
+}
+.c-text-a{
+	margin-left: 10px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right:20px;
+	background-color: #DDD;
 }
 .c-icon{
 	margin-right: 19px;
@@ -138,6 +221,14 @@ body {
 	background-color: #18AFFE;
 	text-align: center;
 	color: #FFF;
-	padding-top: 10px;
-	padding-bottom: 5px;
+	font-size: 17px;
+	padding-top: 12px;
+	padding-bottom: 8px;
+}
+.icon-f{
+	padding-bottom: 10px;
+}
+.icon-f img{
+	width: 20px;
+	height: 19px;
 }
