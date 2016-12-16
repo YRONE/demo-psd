@@ -14,10 +14,10 @@ body {
 }
 
 .head, .contain-a, .contain-c, .c-p, .c-title, .c-h, .con-b{
-	padding-left: 20px;	
-	padding-right: 20px;
+	padding-left: 11px;	
+	padding-right: 11px;
 }
-.head, .contain-a, .contain-b, .c-h, .c-p, .content, .c-b-c, .con-b{
+.head, .contain-a, .c-h, .c-p, .content, .c-b-c, .con-b{
 	background-color: #FFF;
 	margin-bottom: 10px;
 	padding-bottom: 10px;
@@ -26,19 +26,22 @@ body {
 	background-color: #FFF;
 	padding-bottom: 10px;
 }
+.contain-b{
+	background-color: #FFF;
+	margin-bottom: 10px;	
+}
 .head-a{
 	display: table;
 	width: 100%;
 	padding-top: 5px;
 	height: 50px;
-	text-align: center;
 	padding-top: 15px;
 }
 .h-title{
 	font-size: 18px;
 	font-weight: bold;
 	border-right:1px solid #ddd;
-	width: 220px;
+	width: 230px;
 	padding-bottom: 5px;
 	padding-top: 5px;
 	display: inline-table;
@@ -70,7 +73,6 @@ body {
 .head-b{
 	font-size: 14px;
 	color: #666;
-	padding-left: 9px;
 }
 .aa{
 	display: table;
@@ -78,7 +80,7 @@ body {
 }
 .position{
 	display: inline-table;
-	width:  150px;
+	width:  180px;
 }
 .h-b-a{
 	margin-top: 15px;
@@ -91,9 +93,10 @@ body {
 	border-radius:20px;
 	text-align: center;
 	width: 63px;
-	height: 18px;
+	height: 22px;
 	font-size: 7px;
 	margin-top:13px;
+    margin-left: 25px;
     padding-right: 3px;
     padding-top: 5px;
 	vertical-align: middle;
@@ -102,17 +105,16 @@ body {
 .con-a{
 	background-color: #18AFFE;
 	color: #FFF;
-	border-radius:20px;
+	border-radius:23px;
 	width: 60px;
-	font-size: 7px;	
+	font-size: 12px;	
 	text-align: center;
-	padding-bottom: 2px;
-
+	padding-bottom: 5px;
+    padding-top: 5px;
 }
 .h-b-b img{
-	width::10px;
 	height: 15px;
-	vertical-align: middle;
+	vertical-align: sub;
 	padding-right: 3px;
 }
 .h-b-c{
@@ -120,7 +122,6 @@ body {
 	clear: both;
 	font-size: 10px;
 	color: #666;
-	padding-left: 9px;
 }
 .a-icon{
 	width: 20px;
@@ -137,7 +138,7 @@ body {
 	margin-top:28px;
 	border-left:3px solid #18AFFE;
 	display: inline-table;
-	padding-left: 20px;
+	padding-left: 15px;
 }
 .contain{
 	display: table;
@@ -145,10 +146,10 @@ body {
 .c-title{
 	font-size: 20px;
 	font-weight: bold;
-	margin-top:28px;
+	margin-top:16px;
 	border-left:3px solid #18AFFE;
 	float: left;
-	margin-left: 20px;
+	margin-left: 15px;
 }
 .c-t-a{
 	margin-top: 20px;
@@ -156,7 +157,7 @@ body {
 	color: #18AFFE;
 	font-size: 18px;
 	font-weight: bold;
-	margin-left: 120px;
+	margin-left: 140px;
 }
 .c-b{
 	display: table;
@@ -187,7 +188,7 @@ body {
 	color: #666;
 	margin-top: 20px;
 	display: inline-table;
-	padding-left: 45px;
+	padding-left: 65px;
 	text-align: center;
 }
 .c-h{
@@ -196,23 +197,24 @@ body {
 	font-weight: bold;
 }
 .c-h-a{
-	margin-left: 135px;
+	margin-left: 160px;
 	font-weight: bolder;
 	color: #666;
 }
 .c-p{
 	padding-top: 15px;
 	padding-bottom: 15px;
+	font-size: 16px;
 }
 .con-a{
 	display: inline-table;
-	margin-top: 26px;
-	margin-left: 80px;
-
+	margin-top: 16px;
+	margin-left: 115px;
 }
 .con-a img{
 	width: 15px;
 	height: 15px;
+	vertical-align: middle;
 }
 .text{
 	list-style-type: none;
@@ -222,17 +224,27 @@ body {
 	margin-top: 20px;
 	margin-right: 10px;
 	width: 100%;
+	display: table;
+}
+.b-text{
+	display: inline-table;
+}
+.text-title{
+	width: 200px;
+	font-weight: bold;
 }
 .text-b{
 	list-style-type: none;
 	border-color: #ddd;
 	margin-top: 20px;
 	margin-right: 10px;
+	display: table;
+	width: 100%;
 }
 .text-c{
 	font-size: 14px;
 	color:#666;
-	display: table;	
+	padding-top: 10px;
 }
 .contain-c{
 	clear: both;
@@ -240,8 +252,7 @@ body {
 .text-a{
 	font-size: 12px;
 	color:#666;
-	padding-top: 25px;
-	display: table;
+	padding-top: 10px;
 }
 .text-num{
 	display: inline-table;
@@ -251,23 +262,45 @@ body {
 	margin-left: 30px;
 	font-size: 12px;
 }
+.b-pic{
+	vertical-align: text-top;
+	display: inline-table;
+	margin-left: 10px;
+}
+.b-pic img{
+	width: 85px;
+	height: 98px;
+}
+
 .comment{
 	border-bottom:1px solid #666;
 	border-color: #ddd;
 	list-style-type: none;
 }
+.head-pic{
+	display: inline-table;
+	vertical-align: bottom;
+}
+.head-pic img{
+	width: 40;
+	height: 40px;
+}
 .comment-a{
 	display: table;
 	padding-top: 10px;
-	margin-left: 23px;
+	margin-left: 3px;
+	width: 100%;
 }
 .c-name{
 	display: inline-table;
-	margin-right: 20px;
+	margin-right: 10px;
+	margin-left: 10px;
 	color: #18AFFE;
+	font-weight: bold;
 }
 .c-time{
 	display: inline-table;
+	margin-right: 38px;
 	font-size: 10px;
 	color:#666;	
 }
@@ -275,7 +308,6 @@ body {
     display: inline-table;
     color: #18AFFE;
     height: 30px;
-    margin-left: 23px;
     font-size: 15px;
 }
 .c-pic img{
@@ -287,16 +319,15 @@ body {
 	padding-bottom: 10px;
 	padding-top: 10px;
 	padding-right:20px;
-	margin-left: 20px;
+	margin-left: 50px;
 	font-weight: bold;
 }
 .c-text-a{
 	margin-bottom: 10px;
-	margin-left: 33px;
-	padding-top: 10px;
-	padding-bottom: 10px;
+	margin-left: 50px;
+	padding: 5px;
 	background-color: #DDD;
-	width: 250px;
+	width: 230px;
 }
 .c-icon{
 	margin-right: 19px;
@@ -316,6 +347,7 @@ body {
 	padding-bottom: 10px;
 }
 .icon-f img{
-	width: 20px;
-	height: 19px;
+	width: 22px;
+	height: 22px;
+	vertical-align: bottom;
 }
