@@ -44,6 +44,7 @@ body {
 	width: 230px;
 	padding-bottom: 5px;
 	padding-top: 5px;
+	padding-right: 10px;
 	display: inline-table;
 }
 .hh{
@@ -68,7 +69,7 @@ body {
 	vertical-align: middle;
 }
 .h-b-c img{
-	width: 13px;
+	width: 12px;
 	height: 14px;
 	display: inline-table;
 	vertical-align: middle;	
@@ -113,20 +114,20 @@ body {
 	color: #FFF;
 	border-radius:23px;
 	width: 60px;
-	font-size: 12px;	
+	font-size: 10px;	
 	text-align: center;
 	padding-bottom: 5px;
     padding-top: 5px;
 }
 .h-b-b img{
-	height: 15px;
-	vertical-align: sub;
+	height: 10px;
+	width: 10px;
 	padding-right: 3px;
 }
 .h-b-c{
 	margin-top: 5px;
 	clear: both;
-	font-size: 10px;
+	font-size: 12px;
 	color: #666;
 }
 .a-icon{
@@ -142,10 +143,10 @@ body {
 .c-title-a{
 	font-size: 14px;
 	font-weight: bold;
-	margin-top:28px;
+	margin-top:10px;
 	border-left:3px solid #18AFFE;
 	display: inline-table;
-	padding-left: 15px;
+	padding-left: 13px;
 }
 .contain{
 	display: table;
@@ -160,7 +161,7 @@ body {
 	margin-left: 15px;
 }
 .c-t-a{
-	margin-top: 28px;
+	margin-top: 10px;
 	float: right;
 	color: #18AFFE;
 	font-size: 12px;
@@ -183,14 +184,15 @@ body {
 .c-b-a{
 	width: 180px;
 	color: #18AFFE;
-	font-size: 15px;
+	font-size: 14px;
 	margin-top: 10px;
 	margin-bottom: 10px;
 	float: left;
 }
 .c-b-a img{
-	width: 16px;
-	height: 18px;
+	width: 12px;
+	height: 15px;
+	padding-right: 12px;
 	vertical-align: text-bottom;
 }
 .c-b-b{
@@ -200,8 +202,8 @@ body {
 	float: right;
 }
 .c-h{
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 15px;
+	padding-bottom: 15px;
 	font-weight: bold;
 	font-size: 14px;
 }
@@ -223,8 +225,8 @@ body {
     padding-right: 5px;
 }
 .con-a img{
-	width: 15px;
-	height: 15px;
+	width: 12px;
+	height: 12px;
 	margin-right: 5px;
 	vertical-align: middle;
 }
@@ -240,9 +242,14 @@ body {
 }
 .b-text{
 	display: inline-table;
+	margin-right: 10px;
 }
 .text-title{
-	width: 200px;
+	width: 180px;
+	font-weight: bold;
+	font-size: 15px;
+}
+.text-title-a{
 	font-weight: bold;
 	font-size: 15px;
 }
@@ -272,7 +279,7 @@ body {
 }
 .text-time{
 	display: inline-table;
-	margin-left: 30px;
+	margin-left: 25px;
 	font-size: 12px;
 }
 .b-pic{
@@ -365,4 +372,9 @@ body {
 	width: 22px;
 	height: 22px;
 	vertical-align: bottom;
+}
+
+.name {
+	vertical-align: middle;
+	margin-left: 6px;
 }
