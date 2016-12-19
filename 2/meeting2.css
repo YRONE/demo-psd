@@ -17,6 +17,9 @@ body {
 	padding-left: 11px;	
 	padding-right: 11px;
 }
+.head{
+	padding-top: 17px;
+}
 .head, .c-h, .c-p, .content, .c-b-c, .con-b{
 	background-color: #FFF;
 	margin-bottom: 10px;
@@ -24,7 +27,8 @@ body {
 }
  .contain-a{
 	background-color: #FFF;
-	margin-bottom: 10px; 	
+	margin-bottom: 10px;
+	padding-top: 10px; 	
  }
  .contain-c{
  	background-color: #FFF;	
@@ -38,7 +42,6 @@ body {
 	width: 100%;
 	padding-top: 5px;
 	height: 50px;
-	padding-top: 17px;
 }
 .h-title{
 	font-size: 16px;
@@ -113,9 +116,9 @@ body {
 	color: #FFF;
 	border-radius:23px;
 	width: 62px;
-	height: 22px;
+	height: 16px;
 	font-size: 12px;	
-	padding-top: 5px;
+	padding-top: 2px;
 }
 .h-b-b img{
 	height: 10px;
@@ -144,7 +147,6 @@ body {
 .c-title-a{
 	font-size: 14px;
 	font-weight: bold;
-	margin-top:10px;
 	border-left:3px solid #18AFFE;
 	display: inline-table;
 	padding-left: 10px;
@@ -152,6 +154,7 @@ body {
 .contain{
 	display: table;
 	width: 100%;
+	padding-top: 10px;
 }
 .c-title{
 	font-size: 14px;
@@ -162,7 +165,6 @@ body {
 	margin-left: 10px;
 }
 .c-t-a{
-	margin-top: 10px;
 	float: right;
 	color: #18AFFE;
 	font-size: 12px;
@@ -243,7 +245,7 @@ body {
 	border-bottom: 1px solid #666;
 	border-color: #ddd;
 	padding-bottom: 10px;
-	margin-top: 8px;
+	padding-top: 8px;
 	width: 100%;
 	display: table;
 }
