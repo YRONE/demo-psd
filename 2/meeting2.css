@@ -83,8 +83,6 @@ body {
 .head-b{
 	font-size: 12px;
 	color: #666;
-}
-.aa{
 	display: table;
 	width: 100%;
 }
@@ -265,8 +263,7 @@ body {
 .text-b{
 	list-style-type: none;
 	border-color: #ddd;
-	margin-top: 20px;
-	margin-right: 10px;
+	padding-top: 20px;
 	display: table;
 	width: 100%;
 }
@@ -277,6 +274,7 @@ body {
 }
 .contain-c{
 	clear: both;
+	padding-top: 10px;
 }
 .text-a{
 	font-size: 12px;
