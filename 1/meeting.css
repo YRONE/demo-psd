@@ -23,10 +23,12 @@ body {
 	display: table;
 	width: 100%;
 }
+.title{
+	padding-top: 15px;
+}
 .h-a{
 	display: inline-table;
 	margin-left: 44px;
-	margin-top: 14px;
 	color: #18AFFE;
 	border-bottom: 2px solid #18AFFE;
 	padding-bottom: 8px;
@@ -34,7 +36,6 @@ body {
 .h-b{
 	float: right;
 	margin-right: 47px;
-	margin-top: 15px;
 	list-style-type: none;
 }
 .time{
@@ -44,7 +45,14 @@ body {
 	font-size: 15px;
 	font-weight: bold;
 }
-
+.time-none{
+	float: left;
+	margin-left: 9px;
+	margin-top: 7px;
+	font-size: 15px;
+	font-weight: bold;
+	color: #f4f4f4
+}
 .t-icon{
 	float: left;
 	margin-top: 5px;
@@ -54,7 +62,6 @@ body {
 	border-radius:50%;
 	margin-left: 14px;
 	margin-right: 5px;
-	border-right: 3px solid rgb{220,220,220};
 }
 .t-icon-a{
 	float: left;
@@ -102,17 +109,25 @@ body {
 }
 .a{
 	list-style-type: none;
-	border-left: 2px solid rgb(220,220,220);
 }
 .contain-a{
 	display: table-cell;
-	padding-left: 17px;
-	margin-right: 9px;
+	padding-left: 10px;
+	padding-right: 10px;
 	background-color: #fff;
 	margin-top: 14px;
-	margin-right: 9px;
 }
-
+.contain-a:before{
+	content: "";
+	width: 2px; 
+	height: 200%;
+	top: 50px;
+	bottom: 0; 
+	right: 255px;
+	background: rgb(232,232,232); 
+    position: absolute;
+    z-index: -1;
+}
 .contain-title{
 	padding-top: 12px;
 	font-size: 14px;
@@ -180,7 +195,7 @@ body {
 .s-a{
 	display: inline-table;
 	margin-top: 12px;
-	margin-left: 84px;
+	margin-left: 78px;
 }
 .place img{
 	height: 12px;
@@ -195,7 +210,7 @@ body {
 .n-t{
 	display: inline-table;
 	padding-top: 9px;
-	margin-bottom: 12px;
+	padding-bottom: 12px;
 }
 .name img{
 	height: 12px;
@@ -208,7 +223,7 @@ body {
 }
 .c-time{
 	float: right;
-	margin-left: 13px;
+	margin-left: 10px;
 }
 .c-time img{
 	height: 12px;
