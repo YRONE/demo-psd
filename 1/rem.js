@@ -8,4 +8,4 @@
     style.appendChild(cssText)
 
     document.head.appendChild(style)
-})()
+})();

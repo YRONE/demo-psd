@@ -5,11 +5,24 @@ body {
     -webkit-user-select:text;
     user-select:text;
     background-color: #f4f4f4;
-    margin:0;
 }
 
 .a{
 	margin-top: 0.7rem;
+	margin-left: 0.5rem;
+	margin-right: 0.5rem;
+	display: table;
+}
+.a-e{
+	margin-top: 0.7rem;
+	margin-left: 0.3rem;
+	margin-right: 0.5rem;
+	display: table;	
+}
+.a-b{
+	margin-top: 0.7rem;
+	margin-left: 0.3rem;
+	margin-right: 0.5rem;
 }
 .head{
 	height: 2.2rem;
@@ -31,75 +44,79 @@ body {
 .h-b{
 	float: right;
 	margin-right: 2.35rem;
-	list-style-type: none;
+
 }
 .time{
 	float: left;
-	margin-left: 1rem;
+	margin-right: 0.3rem;
 	margin-top: 0.35rem;
 	font-size: 0.75rem;
 	font-weight: bold;
 }
 .contain{
-	padding-left: 0;
+
 }
 .time-none{
 	float: left;
 	margin-top: 0.35rem;
-    margin-left: 1rem;
+	margin-right: 0.3rem;
 	font-size: 0.75rem;
 	font-weight: bold;
 	color: #f4f4f4
 }
-.t-icon{
+.time-a{
 	float: left;
+	margin-right: 0.1rem;
+	margin-top: 0.35rem;
+	font-size: 0.75rem;
+	font-weight: bold;
+}
+.t-icon{
+    display: inherit;
 	margin-top: 0.25rem;
 	background-color: rgb(26,237,115);
 	width:1rem; 
 	height:1rem; 
 	border-radius:50%;
-	margin-left: 0.9rem;
-	margin-right: 0.9rem;
+	margin-right: 0.5rem;
 }
 .t-icon-a{
-	float: left;
+    display: inherit;
 	margin-top: 0.25rem;
 	background-color: rgb(24,175,254);
 	width:1rem; 
 	height:1rem; 
 	border-radius:50%;
-	margin-left: 0.9rem;
-	margin-right: 0.9rem;
+    margin-right: 0.5rem;
 }
 .t-icon-b{
-	float: left;
+    display: inherit;
 	margin-top: 0.25rem;
 	background-color: rgb(24,175,254);
 	width:1rem; 
 	height:1rem; 
 	border-radius:50%;
-	margin-left: 0.9rem;
-	margin-right: 0.9rem;
+    margin-right: 0.5rem;
 }
 .t-icon-c{
-	float: left;
+    display: inherit;
 	margin-top: 0.25rem;
 	background-color: rgb(255,70,92);
 	width:1rem; 
 	height:1rem; 
 	border-radius:50%;
 	margin-left: 0.9rem;
-	margin-right: 0.9rem;
+	margin-right: 0.5rem;
 }
 .t-icon-d{
-	float: left;
+    display: inherit;
 	margin-top: 0.25rem;
 	background-color: rgb(24,175,254);
 	width:1rem; 
 	height:1rem; 
 	border-radius:50%;
 	margin-left: 0.5rem;
-	margin-right: 0.8rem;
+    margin-right: 0.5rem;
 }
 .t-icon-a img, .t-icon-b img, .t-icon-c img, .t-icon-d img{
 	height: 0.7rem;
@@ -115,13 +132,11 @@ body {
     padding-left: 0.2rem;
     padding-top: 0.2rem;
 }
-.a{
-	list-style-type: none;
-}
+
 .contain-a{
 	display: table-cell;
-	padding-left: 0.5rem;
-	padding-right: 0.5rem;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
 	background-color: #fff;
 	margin-top: 0.7rem;
 	border-radius: 0.45rem;
@@ -129,10 +144,10 @@ body {
 .contain-a:before{
 	content: "";
 	width: 0.1rem; 
-	height: 180%;
+	height: 200%;
 	top: 2.5rem;
 	bottom: 0; 
-	right: 16rem;
+	right: 13.15rem;
 	background: rgb(232,232,232); 
     position: absolute;
     z-index: -1;
