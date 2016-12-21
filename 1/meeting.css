@@ -1,240 +1,249 @@
 html {
-    font-size: 20px;
-    -webkit-user-select:text;
     user-select:text;
 }
 body {
     -webkit-user-select:text;
     user-select:text;
     background-color: #f4f4f4;
+    margin:0;
 }
-*{
-	margin: 0;
-	padding: 0;
-}
+
 .a{
-	margin-top: 14px;
+	margin-top: 0.7rem;
 }
 .head{
-	height: 44px;
+	height: 2.2rem;
 	background-color: #fff;
-	font-size: 15px;
+	font-size: 0.75rem;
 	font-weight: bold;
-	display: table;
-	width: 100%;
+	padding-left: 0;
 }
 .title{
-	padding-top: 15px;
+	padding-top: 0.75rem;
 }
 .h-a{
 	display: inline-table;
-	margin-left: 44px;
 	color: #18AFFE;
-	border-bottom: 2px solid #18AFFE;
-	padding-bottom: 8px;
+	border-bottom: .1rem solid #18AFFE;
+	padding-bottom: .4rem;
+	margin-left: 2.2rem;
 }
 .h-b{
 	float: right;
-	margin-right: 47px;
+	margin-right: 2.35rem;
 	list-style-type: none;
 }
 .time{
 	float: left;
-	margin-left: 9px;
-	margin-top: 7px;
-	font-size: 15px;
+	margin-left: 1rem;
+	margin-top: 0.35rem;
+	font-size: 0.75rem;
 	font-weight: bold;
+}
+.contain{
+	padding-left: 0;
 }
 .time-none{
 	float: left;
-	margin-left: 9px;
-	margin-top: 7px;
-	font-size: 15px;
+	margin-top: 0.35rem;
+    margin-left: 1rem;
+	font-size: 0.75rem;
 	font-weight: bold;
 	color: #f4f4f4
 }
 .t-icon{
 	float: left;
-	margin-top: 5px;
+	margin-top: 0.25rem;
 	background-color: rgb(26,237,115);
-	width:20px; 
-	height:20px; 
+	width:1rem; 
+	height:1rem; 
 	border-radius:50%;
-	margin-left: 14px;
-	margin-right: 5px;
+	margin-left: 0.9rem;
+	margin-right: 0.9rem;
 }
 .t-icon-a{
 	float: left;
-	margin-top: 5px;
+	margin-top: 0.25rem;
 	background-color: rgb(24,175,254);
-	width:20px; 
-	height:20px; 
+	width:1rem; 
+	height:1rem; 
 	border-radius:50%;
-	margin-left: 14px;
-	margin-right: 5px;
+	margin-left: 0.9rem;
+	margin-right: 0.9rem;
 }
 .t-icon-b{
 	float: left;
-	margin-top: 5px;
+	margin-top: 0.25rem;
 	background-color: rgb(24,175,254);
-	width:20px; 
-	height:20px; 
+	width:1rem; 
+	height:1rem; 
 	border-radius:50%;
-	margin-left: 7px;
-	margin-right: 5px;
+	margin-left: 0.9rem;
+	margin-right: 0.9rem;
 }
 .t-icon-c{
 	float: left;
-	margin-top: 5px;
+	margin-top: 0.25rem;
 	background-color: rgb(255,70,92);
-	width:20px; 
-	height:20px; 
+	width:1rem; 
+	height:1rem; 
 	border-radius:50%;
-	margin-left: 10px;
-	margin-right: 9px;
+	margin-left: 0.9rem;
+	margin-right: 0.9rem;
 }
-.t-icon-a img, .t-icon-b img, .t-icon-c img{
-	height: 14px;
-	width: 14px;
+.t-icon-d{
+	float: left;
+	margin-top: 0.25rem;
+	background-color: rgb(24,175,254);
+	width:1rem; 
+	height:1rem; 
+	border-radius:50%;
+	margin-left: 0.5rem;
+	margin-right: 0.8rem;
+}
+.t-icon-a img, .t-icon-b img, .t-icon-c img, .t-icon-d img{
+	height: 0.7rem;
+	width: 0.7rem;
 	vertical-align: middle;	
-	padding: 3px;	
+	padding: 0.15rem;	
 }
 .t-icon img{
-	height: 12px;
-	width: 11px;
+	height: 0.6rem;
+	width: 0.55rem;
 	vertical-align: middle;	
-    padding-bottom: 4px;
-    padding-left: 4px;
-    padding-top: 4px;
+    padding-bottom: 0.2rem;
+    padding-left: 0.2rem;
+    padding-top: 0.2rem;
 }
 .a{
 	list-style-type: none;
 }
 .contain-a{
 	display: table-cell;
-	padding-left: 10px;
-	padding-right: 10px;
+	padding-left: 0.5rem;
+	padding-right: 0.5rem;
 	background-color: #fff;
-	margin-top: 14px;
+	margin-top: 0.7rem;
+	border-radius: 0.45rem;
 }
 .contain-a:before{
 	content: "";
-	width: 2px; 
-	height: 200%;
-	top: 50px;
+	width: 0.1rem; 
+	height: 180%;
+	top: 2.5rem;
 	bottom: 0; 
-	right: 255px;
+	right: 16rem;
 	background: rgb(232,232,232); 
     position: absolute;
     z-index: -1;
 }
 .contain-title{
-	padding-top: 12px;
-	font-size: 14px;
+	padding-top: 0.6rem;
+	font-size: 0.7rem;
 }
 
 .c-s{
-	font-size: 12px;
+	font-size: 0.6rem;
 	color: rgb(26,237,115);
-	margin-top: 13px;
-	margin-bottom: 13px;
+	margin-top: 0.65rem;
+	margin-bottom: 0.65rem;
 	display: inline-table;
 }
 .c-beg{
-	font-size: 12px;
+	font-size: 0.6rem;
 	color: rgb(255,70,92);
-	margin-top: 13px;
-	margin-bottom: 13px;
+	margin-top: 0.65rem;
+	margin-bottom: 0.65rem;
 	display: inline-table;
 }
 .c-g{
-	font-size: 12px;
+	font-size: 0.6rem;
 	color: rgb(24,175,254);
-	margin-top: 13px;
-	margin-bottom: 13px;
+	margin-top: 0.65rem;
+	margin-bottom: 0.65rem;
 	display: inline-table;	
 }
 .c-g img{
-	height: 14px;
-	width: 15px;	
+	height: 0.7rem;
+	width: 0.75rem;	
 }
 .c-a img, .c-a-b img{
-	height: 14px;
-	width: 15px;	
+	height: 0.7rem;
+	width: 0.75rem;	
 }
 .c-a{
 	float: right;
 }
 .c-a-b{
 	float: right;
-	margin-right: 10px;
-	margin-top: 12px;
+	margin-right: 0.5rem;
+	margin-top: 0.6rem;
 }
 .s-i{
-	font-size: 10px;
+	font-size: 0.5rem;
 	color: rgb(255,255,255);
-    border-radius: 20px;
+    border-radius: 1rem;
     text-align: center;
-    width: 61px;
+    width: 3.45rem;
     background-color: #18AFFE;
-    padding-top: 4px;
-    padding-bottom: 3px;
+    padding-top: 0.2rem;
+    padding-bottom: 0.15rem;
     float: right;
-    margin-top: 10px;
-    margin-right: 10px;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
 }
 .s-i img{
-	width: 10px;
-	height: 10px;
-	margin-right: 6px;
+	width: 0.5rem;
+	height: 0.5rem;
+	margin-right: 0.3rem;
 }
 .s-a img{
-	height: 14px;
-	width: 15px;
+	height: 0.7rem;
+	width: 0.75rem;
 }
 .s-a{
 	display: inline-table;
-	margin-top: 12px;
-	margin-left: 78px;
+	margin-top: 0.6rem;
+	margin-left: 3.6rem;
 }
 .place img{
-	height: 12px;
-	width: 9px;
+	height: 0.6rem;
+	width: 0.45rem;
 	vertical-align: middle;
 }
 .place{
-	font-size: 12px;
-	padding-top: 12px;
-	border-top: 1px solid rgb(220,220,220);
+	font-size: 0.6rem;
+	padding-top: 0.6rem;
+	border-top: 0.05rem solid rgb(220,220,220);
 }
 .n-t{
 	display: inline-table;
-	padding-top: 9px;
-	padding-bottom: 12px;
+	padding-top: 0.45rem;
+	padding-bottom: 0.6rem;
 }
 .name img{
-	height: 12px;
-	width: 10px;
+	height: 0.6rem;
+	width: 0.5rem;
 	vertical-align: middle;
 }
 .name{
-	font-size: 12px;
+	font-size: 0.6rem;
 	display: inline-table;
 }
 .c-time{
 	float: right;
-	margin-left: 10px;
+	margin-left: 0.5rem;
 }
 .c-time img{
-	height: 12px;
-	width: 12px;
+	height: 0.6rem;
+	width: 0.6rem;
 	vertical-align: middle;
 }
 .c-time-a{
-	font-size: 12px;
+	font-size: 0.6rem;
 }
 .place-a, .name-a, .c-time-a{
-	margin-left: 6px;
+	margin-left: 0.3rem;
 	vertical-align: middle;
 }
 
@@ -242,19 +251,19 @@ body {
 	background-color: #18AFFE;
 	text-align: center;
 	color: #FFF;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 0.75rem;
+	padding-top: 0.75rem;
 	bottom: 0;
 	width: 100%;
 	position: fixed;
 }
 .icon-f{
-	font-size: 15px;
+	font-size: 0.75rem;
 }
 .icon-f img{
-	width: 22px;
-	height: 22px;
-	margin-right: 10px;
+	width: 1.1rem;
+	height: 1.1rem;
+	margin-right: 0.5rem;
     vertical-align: middle;
 }
 .foot-t{
