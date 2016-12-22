@@ -245,9 +245,8 @@ body {
 	display: table;
 }
 .b-text{
-	display: inline-table;
-	margin-right: 0.75rem;
-	width: 190px;
+	display: table-cell;
+	padding-right: 0.75rem;
 }
 .text-title{
 	font-weight: bold;
@@ -280,10 +279,11 @@ body {
 }
 .text-num{
 	display: inline-table;
+	font-size: 0.6rem;
 }
 .text-time{
 	display: inline-table;
-	margin-left: 1.25rem;
+	margin-left: 1.65rem;
 	font-size: 0.6rem;
 }
 .b-pic{
