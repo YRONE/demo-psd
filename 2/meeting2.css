@@ -1,6 +1,4 @@
 html {
-    font-size: 20px;
-    -webkit-user-select:text;
     user-select:text;
 }
 body {
@@ -8,107 +6,103 @@ body {
     user-select:text;
     background-color: #f4f4f4;
 }
-*{
-	margin: 0;
-	padding: 0;
-}
 
 .head, .contain-a, .contain-c, .c-p, .c-title, .c-h, .con-b{
-	padding-left: 11px;	
-	padding-right: 11px;
+	padding-left: 0.55rem;	
+	padding-right: 0.55rem;
 }
 .head{
-	padding-top: 17px;
+	padding-top: 0.85rem;
 }
 .head, .c-h, .c-p, .content, .c-b-c, .con-b{
 	background-color: #FFF;
-	margin-bottom: 10px;
-	padding-bottom: 10px;
+	margin-bottom: 0.5rem;
+	padding-bottom: 0.5rem;
 }
 .title{
-	padding-top: 15px;
+	padding-top: 0.75rem;
 }
  .contain-a{
 	background-color: #FFF;
-	margin-bottom: 10px;
-	padding-top: 10px; 	
+	margin-bottom: 0.5rem;
+	padding-top: 0.5rem; 	
  }
  .contain-c{
  	background-color: #FFF;	
  }
 .contain-b{
 	background-color: #FFF;
-	margin-bottom: 10px;	
+	margin-bottom: 0.5rem;	
 }
 .head-a{
 	display: table;
 	width: 100%;
-	padding-top: 5px;
-	height: 50px;
+	padding-top: 0.25rem;
+	height: 2.5rem;
 }
 .h-title{
-	font-size: 16px;
+	font-size: 0.8rem;
 	font-weight: bold;
 	border-right:1px solid #ddd;
-	width: 230px;
-	padding-right: 12px;
+	width: 11.5rem;
+	padding-right: 0.6rem;
 	display: inline-table;
 }
 .hh{
-	padding-left: 12px;
+	padding-left: 0.6rem;
 	display: inline-table;
 	vertical-align: text-top;
 }
 .icon-a, .i-t{
 	color: #1AED73;
-	font-size: 11px;
+	font-size: 0.55rem;
 	text-align: center;
 }
 .icon-a img{
-	width: 28px;
-	height: 28px;
+	width: 1.4rem;
+	height: 1.4rem;
 }
 .h-b-a img{
-	width: 11px;
-	height: 14px;
+	width: 0.55rem;
+	height: 0.7rem;
 	display: inline-table;
 	vertical-align: middle;
 }
 .h-b-c img{
-	width: 12px;
-	height: 14px;
+	width: 0.6rem;
+	height: 0.7rem;
 	display: inline-table;
 	vertical-align: middle;	
 }
 .i-t{
-	margin-top: 3px;
+	margin-top: .2rem;
 	}
 .head-b{
-	font-size: 12px;
+	font-size: 0.6rem;
 	color: #666;
 	display: table;
 	width: 100%;
 }
 .position{
 	display: inline-table;
-	width:  180px;
+	width:  9rem;
 }
 .h-b-a{
-	margin-top: 12px;
-	width: 200px;
+	margin-top: 0.6rem;
+	width: 10rem;
 	display: inline-table;
 }
 .h-b-b{
 	background-color: #18AFFE;
 	color: #FFF;
-	border-radius:20px;
+	border-radius:1rem;
 	text-align: center;
-	width: 56px;
-	height: 18px;
-	font-size: 10px;
-    margin-left: 28px;
-    padding-right: 3px;
-    padding-top: 4px;
+	width: 2.8rem;
+	height: 0.9rem;
+	font-size: 0.5rem;
+    margin-left: 1.4rem;
+    padding-right: 0.15rem;
+    padding-top: 0.2rem;
 	vertical-align: middle;
 	display: inline-table;
 }
@@ -116,28 +110,28 @@ body {
 	background-color: #18AFFE;
 	color: #FFF;
 	border-radius:23px;
-	width: 62px;
-	height: 16px;
-	font-size: 12px;	
-	padding-top: 2px;
+	width: 3.1rem;
+	height: 0.8rem;
+	font-size: 0.6rem;	
+	padding-top: 0.1rem;
 }
 .h-b-b img{
-	height: 10px;
-	width: 10px;
-	padding-right: 5px;
+	height: 0.5rem;
+	width: 0.5rem;
+	padding-right: 0.25rem;
 }
 .name {
 	vertical-align: middle;
-	margin-left: 6px;
+	margin-left: 0.3rem;
 }
 .h-b-c{
-	margin-top: 5px;
-	font-size: 12px;
+	margin-top: 0.25rem;
+	font-size: 0.6rem;
 	color: #666;
 }
 .a-icon{
-	width: 20px;
-	height: 16px;
+	width: 1rem;
+	height: 0.8rem;
 	display: inline-table;
 	vertical-align: middle
 }
@@ -146,31 +140,31 @@ body {
 	width: 100%;
 }
 .c-title-a{
-	font-size: 14px;
+	font-size: 0.7rem;
 	font-weight: bold;
-	border-left:3px solid #18AFFE;
+	border-left:0.15rem solid #18AFFE;
 	display: inline-table;
-	padding-left: 10px;
+	padding-left: 0.5rem;
 }
 .contain{
 	display: table;
 	width: 100%;
-	padding-top: 10px;
+	padding-top: 0.5rem;
 }
 .c-title{
-	font-size: 14px;
+	font-size: 0.7rem;
 	font-weight: bold;
-	margin-top:10px;
-	border-left:3px solid #18AFFE;
+	margin-top:0.5rem;
+	border-left:0.15rem solid #18AFFE;
 	float: left;
-	margin-left: 10px;
+	margin-left: 0.5rem;
 }
 .c-t-a{
 	float: right;
 	color: #18AFFE;
-	font-size: 12px;
+	font-size: 0.6rem;
 	font-weight: bold;
-	margin-left: 180px;
+	margin-left: 9rem;
 }
 .c-b{
 	display: table;
@@ -180,7 +174,7 @@ body {
 }
 .c-b-e{
 	display: table;
-	margin-top: 10px;
+	margin-top: 0.5rem;
 	border-bottom: 1px solid #666;
 	border-color: #ddd;
 	width: 100%;
@@ -193,30 +187,30 @@ body {
 }
 
 .c-b-a{
-	width: 180px;
+	width: 9rem;
 	color: #18AFFE;
-	font-size: 14px;
-	margin-top: 15px;
-	margin-bottom: 14px;
+	font-size: 0.7rem;
+	margin-top: 0.75rem;
+	margin-bottom: 0.7rem;
 	float: left;
 }
 .c-b-a img{
-	width: 12px;
-	height: 15px;
-	padding-right: 12px;
+	width: 0.6rem;
+	height: 0.75rem;
+	padding-right: 0.6rem;
 	vertical-align: text-bottom;
 }
 .c-b-b{
-	font-size: 12px;
+	font-size: 0.6rem;
 	color: #666;
-	margin-top: 18px; 
+	margin-top: 0.9rem; 
 	float: right;
 }
 .c-h{
-	padding-top: 15px;
-	padding-bottom: 15px;
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
 	font-weight: bold;
-	font-size: 14px;
+	font-size: 0.7rem;
 }
 .c-h-a{
 	float: right;
@@ -224,44 +218,44 @@ body {
 	color: #666;
 }
 .c-p{
-	padding-top: 15px;
-	padding-bottom: 15px;
-	font-size: 16px;	
+	padding-top: 0.75rem;
+	padding-bottom: 0.75rem;
+	font-size: 0.8rem;	
 }
 .con-a{
 	float: right;
-	margin-top: 9px;
-	margin-right: 10px;
-	padding-left: 5px;
-    padding-right: 5px;
+	margin-top: 0.45rem;
+	margin-right: 0.5rem;
+	padding-left: 0.25rem;
+    padding-right: 0.25rem;
 }
 .con-a img{
-	width: 12px;
-	height: 12px;
-	margin-right: 9px;
+	width: 0.6rem;
+	height: 0.6rem;
+	margin-right: 0.45rem;
 	vertical-align: middle;
 }
 .text{
 	list-style-type: none;
 	border-bottom: 1px solid #666;
 	border-color: #ddd;
-	padding-bottom: 10px;
-	padding-top: 8px;
+	padding-bottom: 0.5rem;
+	padding-top: 0.4rem;
 	width: 100%;
 	display: table;
 }
 .b-text{
 	display: inline-table;
-	margin-right: 15px;
+	margin-right: 0.75rem;
 	width: 190px;
 }
 .text-title{
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 0.75rem;
 }
 .text-title-a{
 	font-weight: bold;
-	font-size: 15px;
+	font-size: 0.75rem;
 }
 .text-b{
 	list-style-type: none;
@@ -271,34 +265,34 @@ body {
 	width: 100%;
 }
 .text-c{
-	font-size: 14px;
+	font-size: 0.7rem;
 	color:#666;
-	padding-top: 10px;
+	padding-top: 0.5rem;
 }
 .contain-c{
 	clear: both;
-	padding-top: 10px;
+	padding-top: 0.5rem;
 }
 .text-a{
-	font-size: 12px;
+	font-size: 0.6rem;
 	color:#666;
-	padding-top: 10px;
+	padding-top: 0.5rem;
 }
 .text-num{
 	display: inline-table;
 }
 .text-time{
 	display: inline-table;
-	margin-left: 25px;
-	font-size: 12px;
+	margin-left: 1.25rem;
+	font-size: 0.6rem;
 }
 .b-pic{
 	vertical-align: text-top;
 	display: inline-table;
 }
 .b-pic img{
-	width: 86px;
-	height: 86px;
+	width: 4.3rem;
+	height: 4.3rem;
 }
 
 .comment{
@@ -310,66 +304,66 @@ body {
 }
 .head-pic{
 	display: table-cell;
-	width: 40px;
+	width: 2rem;
 	vertical-align: top;
 }
 .head-pic img{
-	width: 30;
-	height: 30px;
-	margin-top: 10px;
+	width: 1.5rem;
+	height: 1.5rem;
+	margin-top: 0.5rem;
 }
 .comment-a{
-	padding-top: 14px;
+	padding-top: 0.7rem;
 	vertical-align: middle;
 }
 .c-name{
 	display: inline-table;
 	color: #18AFFE;
-	font-size: 14px;
+	font-size: 0.7rem;
 	font-weight: bold;
 }
 .c-time{
 	display: inline-table;
-	font-size: 10px;
+	font-size: 0.5rem;
 	color:#666;	
 }
 .c-pic{
     float: right;
     color: #18AFFE;
-    font-size: 13px;
+    font-size: 0.65rem;
 }
 .c-num{
 	vertical-align: middle;
 }
 .c-pic img{
-	width: 13px;
-	height: 13px;
+	width: 0.65rem;
+	height: 0.65rem;
 	vertical-align: middle;
 }
 .c-text{
-	padding-bottom: 15px;
-	padding-top: 16px;
-	font-size: 16px;
+	padding-bottom: 0.75rem;
+	padding-top: 0.8rem;
+	font-size: 0.8rem;
 	font-weight: bold;
 }
 .c-text-b{
 	padding-bottom: 9px;
-	padding-top: 16px;
-	font-size: 16px;
+	padding-top: 0.8rem;
+	font-size: 0.8rem;
 	font-weight: bold;	
 }
 .c-text-a{
-	margin-bottom: 10px;
+	margin-bottom: 0.5rem;
 	padding: 9px;
 	background-color: #DDD;
-	font-size: 16px;
+	font-size: 0.8rem;
 }
 .c-text-p img{
-	width: 100px;
-	height: 100px;
+	width: 5rem;
+	height: 5rem;
 }
 .c-icon{
-	margin-right: 19px;
+	margin-right: 0.95rem;
 }
 .con-b{
 	clear: both;
@@ -378,19 +372,19 @@ body {
 	background-color: #18AFFE;
 	text-align: center;
 	color: #FFF;
-	padding-bottom: 15px;
-	padding-top: 15px;
+	padding-bottom: 0.75rem;
+	padding-top: 0.75rem;
 	bottom: 0;
 	width: 100%;
 	position: fixed;
 }
 .icon-f{
-	font-size: 15px;
+	font-size: 0.75rem;
 }
 .icon-f img{
-	width: 22px;
-	height: 22px;
-	margin-right: 10px;
+	width: 1.1rem;
+	height: 1.1rem;
+	margin-right: 0.5rem;
     vertical-align: middle;
 }
 .foot-t{
