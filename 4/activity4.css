@@ -1,0 +1,232 @@
+html {
+    user-select:text;
+}
+body {
+    -webkit-user-select:text;
+    user-select:text;
+}
+.contain-con{
+	background-image: url(icon-flag.png);
+    background-repeat:  no-repeat;
+    background-size: 16rem;
+    height: 9.375rem;
+}
+.logo img{
+	width: 11.275rem;
+	height: 6.4rem;
+}
+.logo{
+	padding-top: 0.975rem;
+	padding-left: 2.55rem;
+}
+.con-sing{
+    padding-top: 0.8rem;
+}
+.b-color{
+	background-color: rgb(221,41,28);
+    padding-left: 0.55rem;
+    padding-right: 0.55rem;
+}
+.b-w-c{
+    background-color: #fff;
+    padding-left: .65rem;
+    padding-right: .65rem;	
+}
+.head{
+	border-bottom: 1px solid rgb(232,232,232);
+	padding-bottom: 0.8rem;
+}
+
+.title{
+	font-size: 1rem;
+	font-weight: bold;
+	color: rgb(51,51,51);
+}
+.contain-a{
+	font-size: .5rem;
+	color: rgb(251,31,88);
+	padding-top: .5rem;
+}
+.contain-time{
+	font-size: .55rem;
+	color: rgb(102,102,102);
+	display: inline-table;
+	padding-top: .35rem;
+}
+.contain-b{
+	display: table;
+	width: 100%;
+}
+.contain-c{
+	font-size: 0.4rem;
+	color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    width: 1.5rem;
+    height: 0.5rem;
+    background-color: rgb(255,31,88);
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+    padding-left: 1.1rem;
+    padding-right: 1.15rem;
+    float: right;
+}
+.p{
+	font-size: 0.6rem;
+	padding-top: 0.9rem;
+	padding-bottom: 0.85rem;
+	border-bottom: 1px dashed rgb(232,232,232);
+}
+.con-a{
+	padding-top: 0.65rem;
+	padding-bottom: 0.65rem;
+    display: table;
+    width: 100%;
+    border-bottom: 1px solid rgb(232,232,232);
+}
+.c-num{
+    vertical-align: middle;
+}
+.c-title{
+	font-size: 0.75rem;
+	font-weight: bold;
+	padding-top: 0.8rem;
+}
+.pic-h img{
+	height: 2rem;
+	width: 2rem;
+}
+.pic-h{
+	display: inline-table;
+	vertical-align: middle;
+	margin-left: 0.65rem;
+}
+.song-name{
+	margin-left: 0.4rem;
+}
+.name{
+	font-size: 0.7rem;
+}
+.song img{
+	height: 0.6rem;
+	width: 0.6rem;
+    vertical-align: middle;
+}
+.song{
+	font-size: 0.6rem;
+	color: rgb(102,102,102);
+	margin-top: 0.4rem;
+}
+.pic-gold img{
+	height: 0.85rem;
+	width: 0.85rem;
+}
+.gold{
+	display: inline-table;
+	text-align: center;
+    margin-left: 4.2rem;
+    vertical-align: middle;
+}
+.pic-gold{
+
+}
+.num{
+	font-size: 0.7rem;
+	color: rgb(231,145,42);
+	margin-top: 0.35rem;
+}
+.con-c{
+	display: inline-table;
+	margin-left:  0.6rem;
+    vertical-align: middle;
+}
+.con-l{
+
+	font-weight: bold;
+}
+.c-blank{
+	padding: 2rem;
+}
+.footer{
+	display: table;
+	width: 100%;
+	background-color: rgb(55,39,55);
+	position: fixed;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+	bottom: 0;
+	left: 0;
+}
+.f-a{
+	display: inline-table;
+	color: rgb(255,31,88);
+	margin-left: 1.475rem;
+    text-align: center;
+}
+.f-a img{
+	width: 0.95rem;
+	height: 0.85rem;
+}
+
+.f-d{
+	display: inline-table;
+	margin-left: 1.4rem;
+}
+.f-d img{
+	width: 1.05rem;
+	height: 0.85rem;
+}
+.f-m-w{
+	display: inline-table;
+	width: 3rem;
+    height: 3rem;
+    border:0.75rem solid rgb(144,104,143);
+    border-radius: 50%;
+  	position: absolute;
+  	bottom: -15;
+}
+.f-m{
+	display: inline-table;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    background-color: rgb(255,31,88);
+}
+.f-m img{
+	width: 1.4rem;
+	height: 1.3rem;
+    margin-top: 0.4rem;
+}
+.f-z{
+	display: inline-table;
+	margin-left: 5rem;
+}
+.f-z img{
+	width: 1.15rem;
+	height: 0.9rem;
+}
+.f-mine{
+	display: inline-table;
+	margin-left: 1rem;	
+	margin-top: 0.15rem;
+}
+.f-mine img{
+	width: 1.05rem;
+	height: 0.95rem;
+}
+.f-text{
+	margin-top: 0.3rem;
+	font-size: 0.55rem;
+}
+.f-text-m{
+	margin-top: 0.15rem;
+	font-size: 0.55rem;
+	color: #fff;
+	text-align: center;
+}
+.f-text-w{
+	margin-top: 0.3rem;
+	font-size: 0.55rem;
+	color: rgb(255,255,255);
+}
