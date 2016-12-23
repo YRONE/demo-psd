@@ -1,0 +1,279 @@
+html {
+    user-select:text;
+}
+body {
+    -webkit-user-select:text;
+    user-select:text;
+    background-color: #f4f4f4;
+}
+.h-title{
+	height: 1.475rem;
+	background-color: rgb(49,34,78);
+    opacity: 0.9;
+}
+.t-text{
+    vertical-align: middle;
+    margin-left: 0.9rem;
+}
+.t-a{
+	font-size: 0.55rem;
+	color: rgb(255,255,255);
+}
+.t-b{
+	font-size: 0.55rem;
+	color: rgb(253,245,136);
+}
+.head{
+	padding-top: 0.925rem;
+    padding-bottom: 0.925rem;
+	padding-left: 0.625rem;
+	display: table;
+    width: 100%;
+    background-color: #fff;
+}
+.head-a{
+	display: table-cell;
+	vertical-align: middle;
+    padding-left: 0.725rem;
+}
+.h-p{
+	width: 2.75rem;
+	height: 2.75rem;
+	display: table-cell;
+}
+.head-a-a{
+	display: inline-table;
+}
+.h-name{
+	font-size: 0.7rem;
+	font-weight: bold;
+}
+.h-place{
+	font-size: 0.5rem;
+	color: rgb(153,153,153);
+	margin-top: 0.45rem;
+    display: inline-table;
+}
+.h-icon-a img{
+	height: 0.925rem;
+	width: 0.925rem;
+}
+.h-icon-a{
+	font-size: 0.7rem;
+	color: rgb(255,255,255);
+	background-color: rgb(255,31,88);
+	float: right;
+    border-radius: 1rem;
+}
+.h-c{
+	background-color: rgb(125.125,125);
+    border-radius: 1rem;
+    display: inline-table;
+}
+.h-c-a{
+	font-size: 0.6rem;
+	color: rgb(102,102,102);
+	display: inline-table;
+}
+.h-c-b{
+	font-size: 0.6rem;
+	color: rgb(255,31,88);
+	float: right;
+}
+.h-d{
+	display: inline-table;
+}
+.h-d-a{
+	font-size: 0.55rem;
+	color: rgb(255,31,88); 
+	margin-top: 0.675rem;
+}
+.h-e{
+	font-size: 0.55rem;
+	color: rgb(102,102,102);
+	margin-top: 0.425rem;
+}
+.table-bg{
+	background-color: rgb(125,125,125);
+	padding-left: 2rem;
+	padding-top: 0.5rem;
+    width: 100%;
+}
+.concern-bg{
+	background-color: #fff;
+	padding-left: 2rem;
+	padding-top: 0.5rem;
+    width: 100%;
+    border-bottom: 1px solid rgb(121,121,121);
+}
+.table-g{
+	display: table;
+    border-bottom: 1px dashed;
+}
+.table-a{
+	float: left;
+}
+.table-a-a{
+	font-size: 0.6rem;
+}
+.table-num{
+	font-size: 0.75rem;
+	color: rgb(89,89,89);
+}
+.table-b{
+	float: left;
+}
+.table-gold{
+	display: table;
+}
+.table-concern{
+	display: table;
+}
+.song-num{
+	color: rgb(51,51,51);
+	font-size: 0.75rem;
+}
+.song-text{
+	font-size: 0.55rem;
+	color: rgb(102,102,102);
+}
+.con-song{
+	display: table;
+	padding-left: 1rem;
+	padding-top: 1rem;
+    border-bottom: 1px solid rgb(121,121,121);
+    width: 100%;
+}
+.con-song-a{
+	display: table-cell;
+	vertical-align: middle;
+}
+.song-picture{
+	display: table-cell;
+	width: 2.65rem;
+	height: 2.65rem;
+}
+.s-name{
+	font-size: 0.7rem;
+	color: rgb(51,51,51);
+}
+.s-time{
+	font-size: 0.55rem;
+	color: rgb(153,153,153);
+}
+.song-time{
+	font-size: 0.55rem;
+	color: rgb(102,102,102);
+}
+.static{
+	font-size: .55rem;
+	color: rgb(255,51,102);
+}
+.static-a{
+	font-size: .55rem;
+	color: rgb(21,175,42);
+}
+.static-b{
+	font-size: .55rem;
+	color: rgb(21,175,42);
+}
+.static-c{
+	font-size: .55rem;
+	color: rgb(255,90,0);
+}
+.contain-song{
+	width: 100%;
+}
+
+.flower{
+	color: rgb(255,51,102);
+}
+.flower img{
+	height: 0.7rem;
+	width: 0.425rem;
+}
+
+.footer{
+	display: table;
+	width: 100%;
+	background-color: rgb(55,39,55);
+	position: fixed;
+    padding-top: 0.4rem;
+    padding-bottom: 0.4rem;
+	bottom: 0;
+	left: 0;
+}
+.f-a{
+	display: inline-table;
+	color: rgb(255,31,88);
+	margin-left: 1.475rem;
+    text-align: center;
+}
+.f-a img{
+	width: 0.95rem;
+	height: 0.85rem;
+}
+
+.f-d{
+	display: inline-table;
+	margin-left: 1.4rem;
+}
+.f-d img{
+	width: 1.05rem;
+	height: 0.85rem;
+}
+.f-m-w{
+	display: inline-table;
+	width: 3rem;
+    height: 3rem;
+    border:0.75rem solid rgb(144,104,143);
+    border-radius: 50%;
+    opacity: 0.8;
+  	position: absolute;
+  	bottom: -15;
+}
+.f-m{
+	display: inline-table;
+    border-radius: 50%;
+    width: 3rem;
+    height: 3rem;
+    text-align: center;
+    background-color: rgb(255,31,88);
+}
+.f-m img{
+	width: 1.4rem;
+	height: 1.3rem;
+    margin-top: 0.4rem;
+}
+.f-z{
+	display: inline-table;
+	margin-left: 5rem;
+}
+.f-z img{
+	width: 1.15rem;
+	height: 0.9rem;
+}
+.f-mine{
+	display: inline-table;
+	margin-left: 1rem;	
+	margin-top: 0.15rem;
+}
+.f-mine img{
+	width: 1.05rem;
+	height: 0.95rem;
+}
+.f-text{
+	margin-top: 0.3rem;
+	font-size: 0.55rem;
+}
+.f-text-m{
+	margin-top: 0.15rem;
+	font-size: 0.55rem;
+	color: #fff;
+	text-align: center;
+}
+.f-text-w{
+	margin-top: 0.3rem;
+	font-size: 0.55rem;
+	color: rgb(255,255,255);
+}
