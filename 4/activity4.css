@@ -11,13 +11,11 @@ body {
     background-size: 16rem;
     height: 9.375rem;
 }
-.logo img{
-	width: 11.275rem;
-	height: 6.4rem;
-}
 .logo{
-	padding-top: 0.975rem;
-	padding-left: 2.55rem;
+	margin-left: 50%;
+    left: -4rem;
+    top: 1.4rem;
+    position: relative;
 }
 .con-sing{
     padding-top: 0.8rem;
@@ -35,6 +33,7 @@ body {
 .head{
 	border-bottom: 1px solid rgb(232,232,232);
 	padding-bottom: 0.8rem;
+	padding-top: 0.8rem;
 }
 
 .title{
@@ -56,6 +55,7 @@ body {
 .contain-b{
 	display: table;
 	width: 100%;
+    margin-top: 0.35rem;
 }
 .contain-c{
 	font-size: 0.4rem;
@@ -63,12 +63,11 @@ body {
     border-radius: 1rem;
     text-align: center;
     width: 1.5rem;
-    height: 0.5rem;
     background-color: rgb(255,31,88);
-    padding-top: 0.3rem;
-    padding-bottom: 0.3rem;
+    padding-top: 0.2rem;
+    padding-bottom: 0.2rem;
     padding-left: 1.1rem;
-    padding-right: 1.15rem;
+    padding-right: 1.1rem;
     float: right;
 }
 .p{
@@ -86,6 +85,7 @@ body {
 }
 .c-num{
     vertical-align: middle;
+
 }
 .c-title{
 	font-size: 0.75rem;
@@ -95,11 +95,14 @@ body {
 .pic-h img{
 	height: 2rem;
 	width: 2rem;
+    margin-left: .5rem;
+    display: inline-block;
+    vertical-align: middle;
 }
 .pic-h{
-	display: inline-table;
+	display: table-cell;
 	vertical-align: middle;
-	margin-left: 0.65rem;
+	width: 30%;
 }
 .song-name{
 	margin-left: 0.4rem;
@@ -116,28 +119,28 @@ body {
 	font-size: 0.6rem;
 	color: rgb(102,102,102);
 	margin-top: 0.4rem;
+	display: inline-table;
 }
 .pic-gold img{
 	height: 0.85rem;
 	width: 0.85rem;
 }
 .gold{
-	display: inline-table;
 	text-align: center;
-    margin-left: 4.2rem;
     vertical-align: middle;
+    display: table-cell;
+        width: 20%;
 }
 .pic-gold{
 
 }
 .num{
-	font-size: 0.7rem;
+	font-size: 0.5rem;
 	color: rgb(231,145,42);
 	margin-top: 0.35rem;
 }
 .con-c{
-	display: inline-table;
-	margin-left:  0.6rem;
+	display: table-cell;
     vertical-align: middle;
 }
 .con-l{
