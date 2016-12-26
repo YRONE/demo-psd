@@ -86,12 +86,13 @@ body {
 	padding-top: 0.65rem;
 	padding-bottom: 0.65rem;
     display: table;
+    box-sizing: border-box;
     width: 100%;
     border-bottom: 1px solid rgb(224,224,226);
 }
 .c-num{
     vertical-align: middle;
-
+    display: table-cell;
 }
 .c-title{
 	font-size: 0.75rem;
@@ -101,14 +102,13 @@ body {
 .pic-h img{
 	height: 2rem;
 	width: 2rem;
-    padding-left: .1rem;
-    display: inline-block;
     vertical-align: middle;
 }
 .pic-h{
 	display: table-cell;
 	vertical-align: middle;
-	width: 20%;
+    width: 2.72rem;
+    text-align: center;
 }
 .song-name{
 	margin-left: 0.4rem;
@@ -135,10 +135,7 @@ body {
 	text-align: center;
     vertical-align: middle;
     display: table-cell;
-    width: 13%;
-}
-.pic-gold{
-
+    width: 2rem;
 }
 .num{
 	font-size: 0.5rem;
@@ -148,7 +145,7 @@ body {
 .con-c{
 	display: table-cell;
     vertical-align: middle;
-    padding-left: .2rem;
+    padding-left: .37rem;
 }
 .con-l{
 
