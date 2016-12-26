@@ -12,9 +12,9 @@ body {
     height: 9.375rem;
 }
 .logo{
-	margin-left: 50%;
-    left: -4rem;
-    top: 1.4rem;
+	margin-left: 30%;
+    left: -2.4rem;
+    top: 1.2rem;
     position: relative;
 }
 .con-sing{
@@ -31,11 +31,15 @@ body {
     padding-right: .65rem;	
 }
 .head{
-	border-bottom: 1px solid rgb(232,232,232);
+	border-bottom: 1px solid rgb(224,224,246);
 	padding-bottom: 0.8rem;
 	padding-top: 0.8rem;
+	display: table;
+	width: 100%;
 }
-
+.h-a{
+	display: table-cell;
+}
 .title{
 	font-size: 1rem;
 	font-weight: bold;
@@ -50,7 +54,7 @@ body {
 	font-size: .55rem;
 	color: rgb(102,102,102);
 	display: inline-table;
-	padding-top: .2rem;
+	padding-top: .35rem;
 }
 .contain-b{
 	display: table;
@@ -58,30 +62,32 @@ body {
     margin-top: 0.35rem;
 }
 .contain-c{
-	font-size: 0.4rem;
+	font-size: 0.7rem;
 	color: #fff;
     border-radius: 1rem;
     text-align: center;
-    width: 1.5rem;
     background-color: rgb(255,31,88);
-    padding-top: 0.2rem;
-    padding-bottom: 0.2rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
     padding-left: 1.1rem;
-    padding-right: 1.1rem;
-    float: right;
+    padding-right: 1.175rem;
+}
+.contain-c-c{
+    vertical-align: bottom;
+	display: table-cell;
 }
 .p{
 	font-size: 0.6rem;
 	padding-top: 0.9rem;
 	padding-bottom: 0.85rem;
-	border-bottom: 1px dashed rgb(232,232,232);
+	border-bottom: 1px dashed rgb(133,130,147);
 }
 .con-a{
 	padding-top: 0.65rem;
 	padding-bottom: 0.65rem;
     display: table;
     width: 100%;
-    border-bottom: 1px solid rgb(232,232,232);
+    border-bottom: 1px solid rgb(224,224,226);
 }
 .c-num{
     vertical-align: middle;
@@ -95,14 +101,14 @@ body {
 .pic-h img{
 	height: 2rem;
 	width: 2rem;
-    margin-left: .5rem;
+    padding-left: .1rem;
     display: inline-block;
     vertical-align: middle;
 }
 .pic-h{
 	display: table-cell;
 	vertical-align: middle;
-	width: 30%;
+	width: 20%;
 }
 .song-name{
 	margin-left: 0.4rem;
@@ -129,7 +135,7 @@ body {
 	text-align: center;
     vertical-align: middle;
     display: table-cell;
-        width: 20%;
+    width: 13%;
 }
 .pic-gold{
 
@@ -142,6 +148,7 @@ body {
 .con-c{
 	display: table-cell;
     vertical-align: middle;
+    padding-left: .2rem;
 }
 .con-l{
 
@@ -155,8 +162,7 @@ body {
 	width: 100%;
 	background-color: rgb(55,39,55);
 	position: fixed;
-    padding-top: 0.4rem;
-    padding-bottom: 0.4rem;
+	height: 2.2rem;
 	bottom: 0;
 	left: 0;
 }
@@ -173,7 +179,7 @@ body {
 
 .f-d{
 	display: inline-table;
-	margin-left: 1.4rem;
+	margin-left: 1.7rem;
 }
 .f-d img{
 	width: 1.05rem;
@@ -183,11 +189,11 @@ body {
 	display: inline-table;
 	width: 3rem;
     height: 3rem;
-    border:0.75rem solid rgb(144,104,143);
+    border:0.5rem solid rgb(144,104,143);
     border-radius: 50%;
     opacity: 0.8;
   	position: absolute;
-  	bottom: -15;
+  	bottom: -14;
 }
 .f-m{
 	display: inline-table;
@@ -199,12 +205,12 @@ body {
 }
 .f-m img{
 	width: 1.4rem;
-	height: 1.3rem;
-    margin-top: 0.4rem;
+	height: 1.5rem;
+    margin-top: 0.3rem;
 }
 .f-z{
 	display: inline-table;
-	margin-left: 5rem;
+	margin-left: 4.27rem;
 }
 .f-z img{
 	width: 1.15rem;
@@ -212,7 +218,7 @@ body {
 }
 .f-mine{
 	display: inline-table;
-	margin-left: 1rem;	
+	margin-left: 1.2rem;	
 	margin-top: 0.15rem;
 }
 .f-mine img{
