@@ -176,7 +176,7 @@ body {
 
 .f-d{
 	display: inline-table;
-	margin-left: 1.7rem;
+	margin-left: 1rem;
 }
 .f-d img{
 	width: 1.05rem;
@@ -191,6 +191,7 @@ body {
     opacity: 0.8;
   	position: absolute;
   	bottom: -14;
+	margin-left: 0.4rem;
 }
 .f-m{
 	display: inline-table;
@@ -207,7 +208,7 @@ body {
 }
 .f-z{
 	display: inline-table;
-	margin-left: 4.27rem;
+	margin-left: 4.8rem;
 }
 .f-z img{
 	width: 1.15rem;
