@@ -209,6 +209,7 @@ body {
 .f-z{
 	display: inline-table;
 	margin-left: 4.8rem;
+    text-align: center;
 }
 .f-z img{
 	width: 1.15rem;
