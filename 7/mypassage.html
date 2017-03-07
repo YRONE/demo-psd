@@ -1,0 +1,101 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="MobileOptimized" content="240" />
+    <meta name="apple-touch-fullscreen" content="YES" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="format-detection" content="telephone=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,  minimum-scale=1.0, maximum-scale=1.0" />
+    <title>我的资料</title>  
+    <link rel="stylesheet" type="text/css" href="mypassage.css" />
+</head>
+<body>
+    <div class="top">
+        <ul>
+            <li class="left">
+                <div class="circle">
+                    <img src="icon-left.png">
+                </div>
+            </li>
+            <li class="head">
+                <div><img src="icon-head-picture.png"></div>
+                <div class="h-text">修改头像</div> 
+            </li>
+            <li class="close">
+                <div class="circle-a">
+                    <img src="icon-close.png">
+                </div>
+            </li>    
+        </ul>
+    </div>
+
+    <div class="table">
+            <div class="tr">
+                <div class="t-left">用户名</div>
+                <div class="t-right"><input type="text" id="input"  name="用户名" value="未填写"></div>
+            </div>
+        
+        <div class="tr">
+            <div class="t-left">手机号码</div>
+            <div class="t-right">
+                <div class="input">
+                    <input type="text" id="input"  name="手机号码"  value="123456766">
+                </div>
+            </div>
+        </div>
+        
+        <div class="tr">
+            <div class="t-left">邮箱</div>
+            <div class="t-right"><input type="text"  id="input" name="邮箱" value="12342@163.com"></div>
+         </div>
+        
+        <div class="tr">
+            <div class="t-left">所在地</div>
+            <div class="t-right">
+                <select id="area"> 
+                    <option value="1" selected="">请选择省份</option>
+                </select>
+            </div>
+            <div class="t-right">
+                <select>
+                        <option value="1" selected="">请选择城市</option>
+                </select>    
+            </div>
+        </div>
+        <div class="tr">
+            <div class="t-left">标签选择</div>
+            <div class="t-right"><span id="symbol">></span></div>
+        </div>
+    </div>
+
+    <div class="button"><input type="button" id="button" value="提 交"></div>
+
+    <div class="footer">
+        <ul>
+            <li class="f-m">
+                <div>
+                    <img src="icon-main.png">
+                </div>
+                <div class="f-text-m">首页</div>
+            </li>  
+            <li class="f-s">
+                <div>
+                    <img src="icon-sort.png">
+                </div>
+                <div class="f-text-m">分类</div>
+            </li>
+            <li class="f-shopping">
+                    <div>
+                        <img src="icon-shoppingcar.png">
+                    </div>
+                    <div class="f-text-m">购物车</div>
+            </li>  
+            <li class="f-mine">
+                <div>
+                    <img src="icon-mine-active.png">
+                </div>
+                <div class="f-text-mine">赛区</div>
+            </li>
+        </ul>
+    </div>
+</body>

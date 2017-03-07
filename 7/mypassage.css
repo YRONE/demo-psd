@@ -1,0 +1,158 @@
+html {
+    user-select:text;
+}
+body {
+    -webkit-user-select:text;
+    user-select:text;
+    margin: 0;
+}
+
+.top{
+	display: table;
+	width: 100%;
+	background-color: #303135;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.top ul{
+	left: 0;
+}
+.top ul li {
+    display: table-cell;
+    width: 85px;
+    text-align: center;
+}
+.left, .close, .head{
+    vertical-align: middle;
+}
+
+.h-text{
+	text-align: center;
+	font-size: 20px;
+	color: #E5E5E5;
+	margin-top: 20px;
+	list-style: none;
+}
+.left img{
+	height: 21px;
+	width: 21px;
+	padding: 10px;
+}
+.close img{
+	height: 23px;
+	width: 23px;
+	padding: 10px;
+}
+.head img{
+	height: 155px;
+	width: 155px;
+}
+.circle{
+    width:44px;
+    height:44px;
+    background-color:#242528;
+    border-radius:50px;
+}
+.circle-a{
+    width:44px;
+    height:44px;
+    background-color:#242528;
+    border-radius:50px;
+    text-align: center;
+   	margin-left: 25px;
+}
+#input{
+	border:0px;
+	background:none;
+	color:#A5A5A7;
+	float: right;
+    font-size: 16px;
+    text-align: right;
+	margin-top: 5px;
+}
+.input{
+	float: right;
+}
+select{
+	color:#A5A5A7;
+	font-size: 18px;
+	border-style: none;
+}
+
+.table{
+    padding-top: 20px;
+	padding-right: 28px;
+	padding-left: 28px;
+}
+.tr{
+	height: 55px;
+	font-size: 20px;
+	font-weight: bold;
+	display: table;
+	width: 100%;
+	border-bottom: 1px solid #A5A5A7;
+}
+.t-left{
+	float: left;
+    margin-top: 10px;
+}
+.t-right{
+	float: right;
+    margin-top: 8px;
+}
+
+#symbol{
+	color:#A5A5A7;	
+}
+#button{
+	font-size: 20px;
+	color: #FFFFFF;
+	width: 100%;
+	background-color: #BBB496;
+	vertical-align: middle;
+	text-align: center;
+	height: 51px;
+}
+.button{
+	padding: 28px;
+}
+.footer{
+	width: 100%;
+	position: fixed;
+	bottom: 0;
+	font-size: 15px;
+	color: #A9A9A9;
+}
+.footer ul {
+    display: table;
+    width: 100%;
+    padding-left: 0;
+}
+.footer ul li {
+    display: table-cell;
+    width: 72px;
+    text-align: center;
+}
+.f-text-m{
+	margin-top: 10px;
+}
+.f-text-mine{
+	margin-top: 10px;
+	color: #343437;
+}
+.f-m img{
+	height: 29.5px;
+	width: 29.5px;
+}
+.f-s img{
+	width: 28px;
+	height: 28px;
+}
+.f-shopping img{
+	width: 27px;
+	height: 27px;
+}
+.f-mine img{
+	width: 25px;
+	height: 25px;
+}
